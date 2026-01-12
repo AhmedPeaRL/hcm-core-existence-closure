@@ -1,0 +1,21 @@
+{
+  "hcm_state": "complete_without_activation",
+
+  "allowed_conditions": {
+    "existence_without_execution": true,
+    "passage_without_record": true,
+    "plurality_without_center": true,
+    "outcome_without_feedback": true,
+    "effect_without_attribution": true,
+    "time_without_synchrony": true,
+    "completion_without_future": true
+  },
+
+  "disallowed": {
+    "implicit_triggers": true,
+    "optimization_loops": true,
+    "progress_metrics": true
+  },
+
+  "definition": "HCM is considered present when no further action is required for its validity."
+}
